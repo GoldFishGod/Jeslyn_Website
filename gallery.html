@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About - Jeslyn Wang</title>
+        <link rel="icon" href="https://www.nicepng.com/png/full/149-1492507_magikarp-jump-png-vector-black-and-white-download.png">
+        <meta name="viewport" content="height=device-height, initial-scale=1.0">
+        
+        <style>
+        .gallery {
+  display: flex;
+  padding: 2px;
+  transition: 0.3s;
+}
+.gallery:hover .gallery__image {
+  filter: grayscale(1);
+}
+.gallery__column {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.gallery__link {
+  margin: 2px;
+  overflow: hidden;
+}
+.gallery__link:hover .gallery__image {
+  filter: grayscale(0);
+}
+.gallery__link:hover .gallery__caption {
+  opacity: 1;
+}
+.gallery__thumb {
+  position: relative;
+}
+.gallery__image {
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+}
+.gallery__image:hover {
+  transform: scale(1.1);
+}
+.gallery__caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px 15px 15px;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: white;
+  opacity: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  transition: 0.3s;
+}
+        </style>
+
+            <style>
+                ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: rgba(255, 97, 150, 0.658);
+            }
+            
+            li {
+                float: left;
+            }
+            
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            /* Change the link color to #111 (black) on hover */
+            li a:hover {
+                background-color: rgb(145, 0, 80);
+            }
+        </style>
+    </head>
+    <body style="background-color:rgb(255, 214, 235);">
+        <style>
+            h1 {
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(0, 0, 0);
+            }
+            h3 {
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(0, 0, 0);
+            }
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(0, 0, 0);
+                line-height: 25px;
+            }
+            a {
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(0, 0, 0);;
+            }
+            img.floatRight{
+                float:right;margin-left:20px;
+                width: 30%;
+                height: auto;
+                border-radius: 50%;
+                -webkit-filter: grayscale(10%); /* Safari 6.0 - 9.0 */
+                filter: grayscale(10%);
+            }
+        </style>
+        
+            <ul>
+                <li style="font-family: sans-serif"><a href="index.html">Home</a></li>
+                <li style="font-family: sans-serif"><a href="about.html">About</a></li>
+                <li style="font-family: sans-serif"><a href="myskills.html">My Skills</a></li>
+                <li style="font-family: sans-serif"><a href="gallery.html">Art Portfolio</a></li>
+            </ul>
+        
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+
+    <div class="gallery">
+        <div class="gallery__column">
+            <a href="Ko.jpg" target="_blank" class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="Ko.jpg" alt="Kokomi Drawing" class="gallery__image">
+                    <figcaption class="gallery__caption">Procreate: Kokomi Drawing (Genshin Impact)</figcaption>
+                </figure>
+            </a>
+            
+            <a href="NilouSketch.png" target="_blank" class="gallery__link">
+              <figure class="gallery__thumb">
+                  <img src="NilouSketch.png" alt="Nilou Sketch (Genshin Impact)" class="gallery__image">
+                  <figcaption class="gallery__caption">Procreate: Nilou Sketch (Genshin Impact)</figcaption>
+              </figure>
+          </a>
+
+            
+        </div>
+    
+        <div class="gallery__column">
+            <a href="lowpolybiom.png" target="_blank" class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="lowpolybiom.png" alt="Low Poly Biome" class="gallery__image">
+                    <figcaption class="gallery__caption">Blender: Low Poly Biome</figcaption>
+                </figure>
+            </a>
+
+            <a href="MystaSketch.png" target="_blank" class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="MystaSketch.png" alt="Mysta Rias Sketch (Nijisanji EN)" class="gallery__image">
+                    <figcaption class="gallery__caption">Procreate: Mysta Rias Sketch (Nijisanji EN)</figcaption>
+                </figure>
+            </a>
+        </div>
+    
+        <div class="gallery__column">
+          <a href="ramt.png" target="_blank" class="gallery__link">
+            <figure class="gallery__thumb">
+                <img src="ramt.png" alt="Custom Rat Model" class="gallery__image">
+                <figcaption class="gallery__caption">Blender: Custom Textured Rat Model</figcaption>
+            </figure>
+          </a>
+    
+        </div>
+    
+        <div class="gallery__column">
+          <a href="YanfeiDrawing.png" target="_blank" class="gallery__link">
+            <figure class="gallery__thumb">
+                <img src="YanfeiDrawing.png" alt="Yanfei Drawing" class="gallery__image">
+                <figcaption class="gallery__caption">ibisPaintX: Yanfei Drawing (Genshin Impact)</figcaption>
+            </figure>
+          </a>
+          
+        </div>
+    </div>
+    </body>
+</html>
